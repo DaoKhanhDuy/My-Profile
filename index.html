@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dao Khanh Duy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(0deg, #00FFFF, #5858FA);
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            color: white;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        a {
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container-wrapper {
+            flex: 1;
+        }
+
+        img.profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        a.button {
+            display: block;
+            background-color: transparent;
+            margin: 10px 0;
+            font-size: 1.9rem;
+            font: inherit;
+            padding: 13px;
+            text-decoration: none;
+            border: 2px solid white;
+        }
+
+        a.button:hover {
+            color: #5B86E5;
+            background-color: white;
+        }
+
+        h2.name {
+            margin: 10px;
+            padding-bottom: 0px
+        }
+
+        footer {
+            text-align: center;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        footer>a {
+            text-decoration: none;
+        }
+
+        div.slogan {
+            padding-top: 0px;
+            padding-bottom: 10px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .container-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 767px) {
+            h2.name {
+                padding-top: 0px
+            }
+        }
+
+        .download {
+            padding: 10px;
+        }
+
+        .button-85 {
+            padding: 0.6em 2em;
+            border: none;
+            outline: none;
+            color: rgb(0, 0, 0);
+            background: rgb(255, 255, 255);
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-85:before {
+            content: "";
+            background: linear-gradient(
+                45deg,
+                #ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000
+            );
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing-button-85 20s linear infinite;
+            transition: opacity 0.3s ease-in-out;
+            border-radius: 10px;
+        }
+
+        @keyframes glowing-button-85 {
+            0% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .button-85:after {
+            z-index: -1;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #222;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34156117-12"></script>
+</head>
+
+
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <div>
+                <img class="profile" src="https://scontent.fhan4-2.fna.fbcdn.net/v/t39.30808-6/272201466_10157908664907315_4444897265626436900_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=orSRSlW7L-0AX9JwHEa&_nc_oc=AQkRtpFV92pSSVFbHos4WU-cxEVrBBdVnjmOS0V5SSzwe467tAl0RJ-Gl0UX1EmzJrM&_nc_ht=scontent.fhan4-2.fna&oh=00_AfB2uMDnzJ_pMNCv16NCWmDNwexBw2B1_DD060La0bZKuQ&oe=6370D758">
+            </div>
+            <h2 class="name">ĐÀO KHÁNH DUY</h2>
+            <div class="slogan">
+                Stolen là chính
+            </div>
+            <div class="download">
+               <a href="https://github.com/DaoKhanhDuy/My-Profile/archive/refs/heads/main.zip" class="button-85" download>Download Source</a> 
+            </div>
+            <a href="https://www.facebook.com/Info.DaoKhanhDuy" class="button">
+                <i class="fab fa-facebook-square"></i> FACEBOOK
+            </a>            
+            <a href="https://www.youtube.com/channel/UCxHcHUlBzSY4pst4AtxpqyA" class="button">
+                <i class="fas fa-user-check"></i> YOUTUBE
+            </a>
+            <a href="https://www.instagram.com/duytrollgame/" class="button">
+                <i class="fab fa-instagram"></i> INSTAGRAM
+            </a>
+            <a href="https://zalo.me/0799185105/" class="button">
+                <i class="fas fa-comment"></i></i> ZALO
+            </a>
+            <a href="tel:0799185105" class="button">
+                <i class="fas fa-phone"></i> CALL ME
+            </a>
+            <a href="mailto:info.daokhanhduy@gmail.com" class="button">
+                    <i class="fas fa-envelope"></i> E-MAIL
+                </a>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/">
+            Source
+        </a>
+    </footer>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-34156117-12');
+
+        const elements = document.getElementsByTagName("a")
+        for (let i = 0; i < elements.length; i++) {
+            const element = elements[i]
+            element.addEventListener("click", function (ev) {
+                ev.preventDefault()
+                const url = element.href
+                if (window.ga) {
+                    gtag('event', 'click', {
+                        'event_category': 'outbound',
+                        'event_label': url,
+                        'transport_type': 'beacon',
+                        'event_callback': function () {
+                            document.location.href = url;
+                        }
+                    });
+                } else {
+                    document.location.href = url;
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
